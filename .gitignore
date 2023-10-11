@@ -1,0 +1,8 @@
+./models/rebel/outputs/*
+./models/rebel/rebel-venv
+
+*/__pycache__
+
+
+./models/spert/spert-venv
+./models/spert/data
