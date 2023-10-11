@@ -7,6 +7,7 @@ This repository contains the data, models, and code accompanying the paper title
 1. [Overview](#overview)
 2. [Scheme](./SCHEME.md)
 3. [Corpora](#corpora)
+
    1. [Format](#Format)
    2. [Fine-Grained Expert-Annotated Corpus](#Fine-Grained Expert-Annotated Corpus)
    3. [Coarse-Grained Large-Scale Corpus](#Coarse-Grained Large-Scale Corpus)
@@ -21,13 +22,13 @@ This repository contains the data, models, and code accompanying the paper title
 
 Maintenance work orders (MWO) are concise and information-rich, user-generated technical texts capturing data on the state of, and work on, machines, infrastructure and other engineered assets. These assets are the foundation of our modern economy. Information captured in MWO is vital for asset management decision-making but is challenging to extract and use at scale. This repository contains MaintIE, [a multi-level fine-grained annotation scheme for entity recognition and relation extraction](SCHEME.md), consisting of 5 top-level classes: PhysicalObject, State, Process, Activity and Property and 224 leaf entities, along with 6 relations tailored to MWOs. Using MaintIE, we have curated a multi-annotator, high-quality, [fine-grained corpus of 1,076 annotated texts ](./data/gold.json). Additionally, we present a [coarse-grained corpus of 7,000 texts](./data/silver.json) and consider its performance for bootstrapping and enhancing fine-grained information extraction. Using these corpora, we provide model [performance measures for benchmarking automated entity recognition and relation extraction](RESULTS.md). This repository contains the MaintIE scheme, corpus, and models which are available under the [MIT license](LICENSE.md), encouraging further community exploration and innovation in extracting valuable insights from MWOs.
 
-![Example of MaintIE Tagged Texts](D:\Repos\nlp_tlp\maintie\example_tagged_texts.png)
+![Example of MaintIE Tagged Texts](./example_tagged_texts.png)
 
 ## Corpora
 
 ### Overview
 
-The annotated MaintIE corpora is composed of two sub-corpora - 1) the Fine-Grained Expert-Annotated  corpus (`./data/gold_release.json`), and 2) the Coarse-Grained Large-Scale corpus (`./data/silver_release.json`). The distribution of the top-level entities and relations in these two corpora are outlined below.
+The annotated MaintIE corpora is composed of two sub-corpora - 1) the Fine-Grained Expert-Annotated corpus (`./data/gold_release.json`), and 2) the Coarse-Grained Large-Scale corpus (`./data/silver_release.json`). The distribution of the top-level entities and relations in these two corpora are outlined below.
 
 ### Format
 
