@@ -28,7 +28,7 @@ This repository contains MaintIE, [a multi-level fine-grained annotation scheme 
 
 ### Overview
 
-The annotated MaintIE corpora is composed of two sub-corpora - 1) the Fine-Grained Expert-Annotated corpus (`./data/gold_release.json`), and 2) the Coarse-Grained Large-Scale corpus (`./data/silver_release.json`). The distribution of the top-level entities and relations in these two corpora are outlined below.
+The annotated MaintIE corpora is composed of two sub-corpora - 1) the Fine-Grained Expert-Annotated corpus (`./data/gold_release.json`), and 2) the Coarse-Grained Large-Scale corpus (`./data/silver_release.json`). Statistics of the MaintIE corpora including the top-level entities and relations in these two sub-corpora are outlined [below](#statistics).
 
 ### Format
 
@@ -75,7 +75,37 @@ Where the fields correspond to:
   - `tail`: Index of tail entity (integer)
   - `type`: Relation type corresponding to the relation (string)
 
-### Fine-Grained Expert-Annotated Corpus
+### Normalisation and Sanitisation
+
+Before undergoing semantic annotation, the MaintIE corpus underwent two primary preprocessing steps: **normalisation** and **sanitisation**.
+
+**Normalisation** involved:
+
+- Converting non-canonical words to their canonical forms.
+- Expanding abbreviations.
+- Correcting character casing.
+
+**Sanitisation** ensured the privacy and relevance of the data by:
+
+- Masking sensitive information with the token `<sensitive>`.
+- Representing non-semantic data, such as IDs, numbers, and dates, with the respective tokens: `<id>`, `<num>`, and `<date>`.
+
+For examples illustrating this transformation process, refer to the [overview section](https://chat.openai.com/c/48891c1e-5529-4fd6-a336-45e3e9faef22#overview).
+
+### Statistics
+
+#### Overview
+
+| Measure                    | Value                 |
+| -------------------------- | --------------------- |
+| Total Texts                | 8,076 (1,076 + 7,000) |
+| Total Tokens               | 43,674                |
+| Unique Tokens (Vocabulary) | 2,409                 |
+| Minimum Tokens / Text      | 1                     |
+| Maximum Tokens / Text      | 13                    |
+| Average Tokens / Text      | 5.4                   |
+
+#### Fine-Grained Expert-Annotated Corpus
 
 The Fine-Grained Expert-Annotated corpus (gold standard) is composed of 1,067 texts double annotated by two domain-experts. The table below contained the distribution of top-level entities and relations in this corpus.
 
@@ -97,7 +127,7 @@ The Fine-Grained Expert-Annotated corpus (gold standard) is composed of 1,067 te
 | 6   | isA                       | 364       | 15.5 | 234       | 13.3 |
 |     | **Total**                 | 2,341     | 100  | 1,757     | 100  |
 
-### Coarse-Grained Large-Scale Corpus
+#### Coarse-Grained Large-Scale Corpus
 
 The Coarse-Grained Large-Scale corpus (silver standard) is composed of 7,000 texts annotated by a deep learning model trained on the fine-grained corpus and subsequently reviewed and validated by a single domain-expert. The table below contained the distribution of top-level entities and relations in this corpus.
 
