@@ -1,8 +1,15 @@
-./models/rebel/outputs/*
-./models/rebel/rebel-venv
+!.gitkeep
 
-*/__pycache__
+__pycache__
 
+models/data/*
+!models/data/.gitkeep
 
-./models/spert/spert-venv
-./models/spert/data
+models/rebel/src/outputs/*
+!models/rebel/src/outputs/.gitkeep
+models/rebel/rebel-venv
+models/rebel/model/*
+!models/rebel/model/maintie/.gitkeep
+!models/rebel/model/Rebel-large/.gitkeep
+
+models/spert/spert-venv
