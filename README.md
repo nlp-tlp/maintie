@@ -4,19 +4,22 @@ This repository contains the data, models, and code accompanying the paper title
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Scheme](./SCHEME.md)
-3. [Corpora](#corpora)
-   1. [Format](#Format)
-   2. [Fine-Grained Expert-Annotated Corpus](#fine-grained-expert-annotated-corpus)
-   3. [Coarse-Grained Large-Scale Corpus](#coarse-grained-large-scale-corpus)
-4. [Models](#models)
-5. [Usage](#usage)
-6. [License](#license)
-7. [Contributing](#contributing)
-8. [Contact](#contact)
+1. [Overview](#1-overview)
+2. [Scheme](#2-scheme)
+3. [Corpora](#3-corpora)
+   1. [Overview](#31-overview)
+   2. [Format](#32-format)
+   3. [Normalisation and Sanitisation](#33-normalisation-and-sanitisation)
+   4. [Statistics](#34-statistics)
+      1. [Overview](#341-overview)
+      2. [Fine-Grained Expert-Annotated Corpus](#342-fine-grained-expert-annotated-corpus)
+      3. [Coarse-Grained Large-Scale Corpus](#343-coarse-grained-large-scale-corpus)
+4. [Models](#4-models)
+5. [License](#5-license)
+6. [Contributing](#6-contributing)
+7. [Contact](#7-contact)
 
-## Overview
+## 1. Overview
 
 Maintenance work orders (MWO) are concise and information-rich, user-generated technical texts capturing data on the state of, and work on, machines, infrastructure and other engineered assets. These assets are the foundation of our modern economy. Information captured in MWO is vital for asset management decision-making but is challenging to extract and use at scale.
 
@@ -24,13 +27,17 @@ This repository contains MaintIE, [a multi-level fine-grained annotation scheme 
 
 ![Example of MaintIE Tagged Texts](./example_tagged_texts.png)
 
-## Corpora
+## 2. Scheme
 
-### Overview
+The MaintIE annotation scheme is described in the [Scheme](./SCHEME.md) section of the repository.
+
+## 3. Corpora
+
+### 3.1. Overview
 
 The annotated MaintIE corpora is composed of two sub-corpora - 1) the Fine-Grained Expert-Annotated corpus (`./data/gold_release.json`), and 2) the Coarse-Grained Large-Scale corpus (`./data/silver_release.json`). Statistics of the MaintIE corpora including the top-level entities and relations in these two sub-corpora are outlined [below](#statistics).
 
-### Format
+### 3.2. Format
 
 Both corpora are composed of a set of items pertaining to texts annotated with entities and relations. An example item is shown below.
 
@@ -75,7 +82,7 @@ Where the fields correspond to:
   - `tail`: Index of tail entity (integer)
   - `type`: Relation type corresponding to the relation (string)
 
-### Normalisation and Sanitisation
+### 3.3. Normalisation and Sanitisation
 
 Before undergoing semantic annotation, the MaintIE corpus underwent two primary preprocessing steps: **normalisation** and **sanitisation**.
 
@@ -92,9 +99,9 @@ Before undergoing semantic annotation, the MaintIE corpus underwent two primary 
 
 For examples illustrating this transformation process, refer to the [overview section](https://chat.openai.com/c/48891c1e-5529-4fd6-a336-45e3e9faef22#overview).
 
-### Statistics
+### 3.4. Statistics
 
-#### Overview
+#### 3.4.1. Overview
 
 | Measure                    | Value                 |
 | -------------------------- | --------------------- |
@@ -105,7 +112,7 @@ For examples illustrating this transformation process, refer to the [overview se
 | Maximum Tokens / Text      | 13                    |
 | Average Tokens / Text      | 5.4                   |
 
-#### Fine-Grained Expert-Annotated Corpus
+#### 3.4.2. Fine-Grained Expert-Annotated Corpus
 
 The Fine-Grained Expert-Annotated corpus (gold standard) is composed of 1,067 texts double annotated by two domain-experts. The table below contained the distribution of top-level entities and relations in this corpus.
 
@@ -127,7 +134,7 @@ The Fine-Grained Expert-Annotated corpus (gold standard) is composed of 1,067 te
 | 6   | isA                       | 364       | 15.5 | 234       | 13.3 |
 |     | **Total**                 | 2,341     | 100  | 1,757     | 100  |
 
-#### Coarse-Grained Large-Scale Corpus
+#### 3.4.3. Coarse-Grained Large-Scale Corpus
 
 The Coarse-Grained Large-Scale corpus (silver standard) is composed of 7,000 texts annotated by a deep learning model trained on the fine-grained corpus and subsequently reviewed and validated by a single domain-expert. The table below contained the distribution of top-level entities and relations in this corpus.
 
@@ -149,19 +156,19 @@ The Coarse-Grained Large-Scale corpus (silver standard) is composed of 7,000 tex
 | 6   | isA                       | 2,512     | 14.7 | 1,894     | 14.7 |
 |     | **Total**                 | 15,200    | 100  | 12,898    | 100  |
 
-## Models
+## 4. Models
 
 We've conducted experiments using token-classification ([SpERT](https://github.com/lavis-nlp/spert)) and sequence-to-sequence ([REBEL](https://github.com/Babelscape/rebel)) models to enable automatic information extraction from MWO short texts. For comprehensive details about the models, their training methodologies, and steps to reproduce our experiments, kindly refer to the [Models](./MODELS.md) section in this repository.
 
-## License
+## 5. License
 
 This project is protected under the MIT License. For detailed licensing information, check out the [LICENSE](./LICENSE.md) file.
 
-## Contributing
+## 6. Contributing
 
 Feedback and contributions are always appreciated. If you encounter any discrepancies in the corpora or see opportunities for model enhancement, please don't hesitate to submit a pull request for our evaluation. Additionally, should you have any questions or need clarifications about the contents of this repository, do reach out to us.
 
-## Contact
+## 7. Contact
 
 For any specific inquiries or discussions, kindly get in touch:
 
