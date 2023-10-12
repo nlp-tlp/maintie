@@ -1,6 +1,24 @@
 # MaintIE Scheme
 
-## Overview
+## Table of Contents
+
+1. [Overview](#1-overview)
+2. [Entities](#2-entities)
+   1. [PhysicalObject](#21-physical-object)
+   2. [State](#22-state)
+   3. [Process](#23-process)
+   4. [Activity](#24-activity)
+   5. [Property](#25-property)
+   6. [Entity Classes](#26-entity-classes)
+3. [Relations](#3-relations)
+   1. [Mereological Relations](#31-mereological-relations)
+   2. [Property Relations](#32-property-relation)
+   3. [Type Relations](#33-type-relation)
+   4. [Participatory Relations](#34-participatory-relations)
+   5. [Relation Classes](#35-relation-classes)
+4. [Bibliography](#4-bibliography)
+
+## 1. Overview
 
 The MaintIE annotation scheme is made up of 224 total entity classes and 6 relations that capture phenomena within MWO short texts. The MaintIE scheme is guided by the following design requirements:
 
@@ -15,51 +33,33 @@ The MaintIE annotation scheme is made up of 224 total entity classes and 6 relat
 
 **Notation**: `(X)[Y]` represents an entity with the text _X_ and class _Y_. `(X1)[Y1]-[R]->(X2)[Y2]` represents a triple composed of two entities and one relation (_R_). Hence, (car)[PhysicalObject]-[hasPart]->(engine)[PhysicalObject] represents the fact that a car of type PhysicalObject has the part engine of type PhysicalObject.
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Entities](#entities)
-   1. [PhysicalObject](#PhysicalObject)
-   2. [State](#State)
-   3. [Process](#Process)
-   4. [Activity](#Activity)
-   5. [Property](#Property)
-   6. [Entity Classes](#Entity Classes)
-3. [Relations](#Relations)
-   1. [Mereological Relations](#Mereological Relations)
-   2. [Property Relations](#Property Relations)
-   3. [Type Relations](#Type Relations)
-   4. [Participatory Relations](#Participatory Relations)
-   5. [Relation Classes](#Relation Classes)
-4. [Bibliography](#Bibliography)
-
-## Entities
+## 2. Entities
 
 MaintIE consists of 224 unique entity classes, grouped into five top-level hierarchical classes: _PhysicalObject_, _State_, _Process_, _Activity_, and _Property_. An illustrative example of these classes is shown in the [README](README.md). Each top-level class is described below, and more detailed information is outlined in the following table.
 
 ![MaintIE Entity Hierarchy](./maintie_entity_hierarchy.png)
 
-### Physical Object
+### 2.1. Physical Object
 
 MaintIE adopts a systems engineering approach to annotation of physical objects utilising the _inherent function_ of objects as the basis for item classification[^1]. This allows for the direct use of the function-based object classification section in the IEC 81346-2:2019 standard for Industrial Systems, installations and equipment and industrial products -- Structuring principles and reference designations -- Classification of objects and codes for classes[^2]. MaintIE adopts the function-based taxonomy in the IEC 81346-2 Standard for the _PhysicalObject_ entity class and extends this to incorporate a limited set of physical objects that have essential semantic roles in maintenance texts such as technicians (_Person_) and grease, oil, water (_Substance_). The resulting _PhysicalObject_ class is a three-tiered hierarchy with 19 second-tier classes and 173 third-tier classes.
 
-### State
+### 2.2. State
 
 Discerning the state or condition of physical objects is crucial for interpreting MWO texts. Moreover, it is significant for practical applications such as reducing equipment downtime to recognise how physical objects degrade and fail. In this context, MaintIE employs state classifications from [^3][^4], encompassing _State_, _State/DesirableState_, _State/ DesirableState/ NormalState_, _State/UndesirableState_, _State/UndesirableState/DegradedState_, and _State/UndesirableState/FailedState_.
 
-### Process
+### 2.3. Process
 
 In addition to the state class, MaintIE captures the ontological modelling notion that equipment has a function that is realised in a process with _Process_, _Process/DesirableProcess_ and _Process/UndesirableProcess_ classes. While texts describing these processes might appear similar to texts describing states, the former must be distinguished from the latter as representing temporally dynamic events. For instance, "pump seized" depicts a pump in a static, adverse state, whereas "pump leaking" indicates an ongoing detrimental process (refer to the main figure in the [README](README.md) for more examples).
 
-### Activity
+### 2.4. Activity
 
 Identifying what specific preventative and restorative activities are performed on physical objects is crucial for identifying design and performance issues, refining maintenance practices, and facilitating proactive planning[^5]. Borrowing from Woods et al.[^6], MaintIE uses a three-tiered _Activity_ hierarchy with 2 second-tier classes and 16 third-tier classes.
 
-### Property
+### 2.5. Property
 
 The property class refers to the attributes or features of an object. In this research, properties can be syntactically characterised as either essential -- attributes that an object inherently possesses -- or accidental -- attributes an object can have but are not necessarily intrinsic to it[^7]. For example, while a 'pipe' intrinsically has 'mass', it doesn't necessarily have a 'dent', though the latter is possible. MaintIE captures properties as: _Property_, _Property/DesirableProperty_ and _Property/UndesirableProperty_, mirroring the subclass structure of state and process.
 
-### Entity Classes
+### 2.6. Entity Classes
 
 | Type                                                                             | Description                     | Example Terms                                      |
 | -------------------------------------------------------------------------------- | ------------------------------- | -------------------------------------------------- |
@@ -288,27 +288,27 @@ The property class refers to the attributes or features of an object. In this re
 | PhysicalObject / InterfacingObject / SpaceLinkingObject                          |                                 | cavity, glass                                      |
 | PhysicalObject / InterfacingObject / MultipleFlowConnectorObject                 |                                 |                                                    |
 
-## Relations
+## 3. Relations
 
 MaintIE presents four distinct categories of relations: _mereological_, _property_, _type_, and _participatory_. Each type is described below, with descriptions and examples outlined in the following table. For a visual representation of these relations, please refer to the [README](README.md).
 
-### Mereological Relations
+### 3.1. Mereological Relations
 
 Mereological relations capture parthood and involve part-whole relationships[^8] such as _hasPart_ and _contains_. These relations are essential for representing the taxonomical structure and organisation of physical objects in MWO texts. For instance, the _hasPart_ relation can be used to capture that an "engine" has a "radiator" as one of its parts -- _hasPart(engine, radiator)_. Similarly, the _contains_ relation can be used to represent that a "radiator" contains "coolant" -- _contains(radiator, coolant)_.
 
-### Property Relation
+### 3.2. Property Relation
 
 In MaintIE, the property relation involves linking the properties or attributes of entities. Specifically, the relation used is the _hasProperty_ relation. This relation is used to express that a physical object possesses a certain property. For example, the relation can be used to indicate that a "pump" possesses the "pressure" property, like this: _hasProperty(pump, pressure)_.
 
-### Type Relation
+### 3.3. Type Relation
 
 The type relation involves the classification or categorisation of entities. In MaintIE, this relation is expressed through the _isA_ (subsumption) relation. This relation captures the idea that one entity is a specific instance or subclass of another entity. For instance, the _isA(diesel engine, engine)_ relation indicates that a "diesel engine" belongs to the "engine" category. This relation captures the taxonomical structure of physical objects and states, thus supporting inference in downstream applications. An example of this relation can be seen in the [README](README.md).
 
-### Participatory Relations
+### 3.4. Participatory Relations
 
 Participatory relations refer to the roles played by different entities in activities, states or processes. To simplify the annotation process, MaintIE uses a set of relations inspired by PropBank's [^9]agent (ARG0) and patient (ARG1) labels accessed via the [Unified Verb Index](https://verbs.colorado.edu/verb-index/index.php). These labels are semantically defined as Proto-Agent sproperties[^10]. As MaintIE uses a closed set of typed entities, these labels have been transformed into the semantic relations _hasParticipant/hasAgent_ and _hasParticipant/hasPatient_ to capture the participation of entities as agents, causes, or experiencers, as well as those undergoing a change of state or being affected by actions.
 
-### Relation Classes
+### 3.5. Relation Classes
 
 | Type                        | Description                              | Examples                                     |
 | --------------------------- | ---------------------------------------- | -------------------------------------------- |
@@ -321,7 +321,7 @@ Participatory relations refer to the roles played by different entities in activ
 
 Note: The top-level `hasParticipant` relation was not used in MaintIE corpora creation; however, it could be used for instances where the agent/patient roles are ambiguous or unable to be resolved.
 
-## Bibliography
+## 4. Bibliography
 
 [^1]: Stone, Robert B., and Kristin L. Wood. 1999. "Development of a Functional Basis for Design." In _International Design Engineering Technical Conferences and Computers and Information in Engineering Conference_, 261-275. American Society of Mechanical Engineers.
 [^2]: IEC. 2019. "IEC 81346-2 Industrial systems, installations and equipment and industrial products -- Structuring principles and reference designations -- Part 2: Classification of objects and codes for classes." Geneva, Switzerland: European Committee for Electrotechnical Standardization.
