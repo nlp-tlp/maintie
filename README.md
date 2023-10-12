@@ -121,7 +121,7 @@ The Coarse-Grained Large-Scale corpus (silver standard) is composed of 7,000 tex
 
 ## Models
 
-We've conducted experiments using token-classification ([SpERT](#https://github.com/lavis-nlp/spert)) and sequence-to-sequence ([REBEL](https://github.com/Babelscape/rebel)) models to enable automatic information extraction from MWO short texts. For comprehensive details about the models, their training methodologies, and steps to reproduce our experiments, kindly refer to the [Models](./MODELS.md) section in this repository.
+We've conducted experiments using token-classification ([SpERT](https://github.com/lavis-nlp/spert)) and sequence-to-sequence ([REBEL](https://github.com/Babelscape/rebel)) models to enable automatic information extraction from MWO short texts. For comprehensive details about the models, their training methodologies, and steps to reproduce our experiments, kindly refer to the [Models](./MODELS.md) section in this repository.
 
 ## License
 
