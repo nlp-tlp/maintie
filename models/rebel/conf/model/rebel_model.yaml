@@ -1,0 +1,11 @@
+# @package _global_
+
+model_name_or_path: "D:/Repos/nlp_tlp/maintie/models/rebel/model/Rebel-large"
+config_name: "D:/Repos/nlp_tlp/maintie/models/rebel/model/Rebel-large"
+tokenizer_name: "D:/Repos/nlp_tlp/maintie/models/rebel/model/Rebel-large"
+cache_dir:
+use_fast_tokenizer: True
+
+model_revision: "main"
+use_auth_token: False
+finetune: False
