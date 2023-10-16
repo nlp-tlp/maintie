@@ -97,7 +97,7 @@ Before undergoing semantic annotation, the MaintIE corpus underwent two primary 
 - Masking sensitive information with the token `<sensitive>`.
 - Representing non-semantic data, such as IDs, numbers, and dates, with the respective tokens: `<id>`, `<num>`, and `<date>`.
 
-For examples illustrating this transformation process, refer to the [overview section](https://chat.openai.com/c/48891c1e-5529-4fd6-a336-45e3e9faef22#overview).
+For examples illustrating this transformation process, refer to the [overview section](#1-overview).
 
 ### 3.4. Statistics
 
