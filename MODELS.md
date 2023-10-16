@@ -26,6 +26,7 @@ Each model comes with distinct dependencies. To ensure compatibility and smooth 
 
 1. Ensure you're working with Python 3.8, as all our training was executed using this version.
 2. Create a virtual environment for each model and install their specific dependencies (`requirements.txt`).
+3. We used PyTorch with CUDA 12.1. This was installed via `pip install torch --index-url https://download.pytorch.org/whl/cu121` prior to installing the model specific dependencies.
 
 ### Model Repositories
 
