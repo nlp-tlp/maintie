@@ -67,6 +67,8 @@ To create the `maintie_model` for using the coarse-grained corpus to improve fin
 
 - You will need to change the base path of the configurations (`./rebel/conf`) to point to the local directory you are working in as they require absolute paths.
 
+- ⚠️ If the error "Key 'config' is not in struct" occurs when testing the REBEL model, comment out the following line `checkpoint[cls.CHECKPOINT_HYPER_PARAMS_KEY].update(kwargs)` (LN84) in the pytorch-lightning module `pytorch_lightning\core\saving.py` in your virtual environment.
+
 #### Experiments
 
 | Experiment | Training Command                                                         |
