@@ -89,7 +89,7 @@ Note: `g` refers to gold corpus.
 
 SpERT is a span-based entity and relation transformer which jointly extracts entities and relations from text. It is a token-classification type model. For more information please consult the models [repository](https://github.com/lavis-nlp/spert).
 
-The configuration files for reproducing our experiments with SpERT are located in `./spert/configs`. There are `train` and `eval` configuration files for each of the experiments. To facilitate the use of the coarse-grained corpus for pre-fine-tuning before fine-tuning on the fine-grained corpus, see the [section](#Creating the SpERT MaintIE Base Model) below. In general, the SpERT experiments are split into three stages:
+The configuration files for reproducing our experiments with SpERT are located in `./spert/configs`. There are `train` and `eval` configuration files for each of the experiments. To facilitate the use of the coarse-grained corpus for pre-fine-tuning before fine-tuning on the fine-grained corpus, see the [section](#creating-the-spert-maintie-base-model) below. In general, the SpERT experiments are split into three stages:
 
 1. Training and evaluating on the fine-grained corpus (gold; `maintie_g_*`),
 2. Training on the coarse-grained corpus (silver; `maintie_s_*`) to produce MaintIE base-models for subsequent fine-tuning on the fine-grained corpus, and
