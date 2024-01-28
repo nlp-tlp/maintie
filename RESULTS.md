@@ -1,6 +1,6 @@
 # Results
 
-This document presents the detailed results of entity and relation extraction models. It includes per class entity and relation F1 scores, both micro and macro, alongside other key evaluation metrics. These results are crucial in understanding the performance of the models in identifying entities and relationships within a given text corpus.
+This document presents the detailed results of entity and relation extraction models. It includes per class entity and relation F1 scores, both micro and macro, alongside other key evaluation metrics. These results are crucial in understanding the performance of the models in identifying entities and relationships within a given text corpus. The results are obtained from the test set portion of the fine-grained expert-annotated corpus for fair comparison consisting of 108 randomly sampled texts.
 
 ## Evaluation Metrics Explained
 
@@ -655,7 +655,7 @@ Loose RE
 
 ##### Entity Classes: 2
 
-Strict RE**(diff to paper)**
+Strict RE
 
 ```
         type    precision       recall     f1-score      support
@@ -670,7 +670,7 @@ has property       100.00        60.00        75.00            5
        macro        74.89        67.30        69.66          234
 ```
 
-Loose RE**(diff to paper)**
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -687,7 +687,7 @@ has property       100.00        60.00        75.00            5
 
 ##### Entity Classes: 5
 
-Strict RE **(diff to paper)**
+Strict RE
 
 ```
         type    precision       recall     f1-score      support
@@ -702,7 +702,7 @@ has property        25.00        20.00        22.22            5
        macro        55.33        63.21        57.28          234
 ```
 
-Loose RE **(diff to paper)**
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -719,7 +719,7 @@ has property        25.00        20.00        22.22            5
 
 ##### Entity Classes: 32
 
-Strict RE  **(diff to paper)**; marginal
+Strict RE
 
 ```
         type    precision       recall     f1-score      support
@@ -734,7 +734,7 @@ has property         0.00         0.00         0.00            5
        macro         0.57         0.55         0.56          234
 ```
 
-Loose RE  **(diff to paper)**; marginal
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -766,7 +766,7 @@ has property         0.00         0.00         0.00          5.0
        macro         0.00         0.00         0.00        234.0
 ```
 
-Loose RE **(diff to paper)** ; marginal
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -785,7 +785,7 @@ has property        60.00        60.00        60.00            5
 
 ##### Entity Classes: 2
 
-Strict RE **(diff to paper)**
+Strict RE
 
 ```
         type    precision       recall     f1-score      support
@@ -800,7 +800,7 @@ has property        80.00        80.00        80.00            5
        macro        74.46        75.88        73.73          234
 ```
 
-Loose RE **(diff to paper)**
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -817,7 +817,7 @@ has property        80.00        80.00        80.00            5
 
 ##### Entity Classes: 5
 
-Strict RE **(diff to paper)**
+Strict RE
 
 ```
         type    precision       recall     f1-score      support
@@ -832,7 +832,7 @@ has property        80.00        80.00        80.00            5
        macro        68.24        75.62        70.89          234
 ```
 
-Loose RE **(diff to paper)**
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -849,7 +849,7 @@ has property        80.00        80.00        80.00            5
 
 ##### Entity Classes: 32
 
-Strict RE **(diff to paper)**
+Strict RE
 
 ```
         type    precision       recall     f1-score      support
@@ -864,7 +864,7 @@ has property        60.00        60.00        60.00            5
        macro        50.85        52.28        51.05          234
 ```
 
-Loose RE **(diff to paper)**
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
@@ -896,7 +896,7 @@ has property         0.00         0.00         0.00          5.0
        macro         0.00         0.00         0.00        234.0
 ```
 
-Loose RE **(diff to paper)**
+Loose RE
 
 ```
         type    precision       recall     f1-score      support
