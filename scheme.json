@@ -1,0 +1,3962 @@
+{
+  "entity": [
+    {
+      "name": "PhysicalObject",
+      "children": [
+        {
+          "name": "Substance",
+          "children": [
+            {
+              "name": "Gas",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "bc0d8b8d",
+              "fullname": "PhysicalObject/Substance/Gas",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 0, 0]
+            },
+            {
+              "name": "Liquid",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9740c651",
+              "fullname": "PhysicalObject/Substance/Liquid",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 0, 1]
+            },
+            {
+              "name": "Solid",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "d0ea82a5",
+              "fullname": "PhysicalObject/Substance/Solid",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 0, 2]
+            },
+            {
+              "name": "Mixture",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c675b4f8",
+              "fullname": "PhysicalObject/Substance/Mixture",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 0, 3]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "770b1581",
+          "fullname": "PhysicalObject/Substance",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 0]
+        },
+        {
+          "name": "Organism",
+          "children": [
+            {
+              "name": "Person",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "38e3c9f1",
+              "fullname": "PhysicalObject/Organism/Person",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 1, 0]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "a3a80a14",
+          "fullname": "PhysicalObject/Organism",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 1]
+        },
+        {
+          "name": "SensingObject",
+          "children": [
+            {
+              "name": "ElectricPotentialSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2e5af230",
+              "fullname": "PhysicalObject/SensingObject/ElectricPotentialSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 0]
+            },
+            {
+              "name": "ResistivitySensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "8859a9ce",
+              "fullname": "PhysicalObject/SensingObject/ResistivitySensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 1]
+            },
+            {
+              "name": "ElectricCurrentSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "abe0c971",
+              "fullname": "PhysicalObject/SensingObject/ElectricCurrentSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 2]
+            },
+            {
+              "name": "DensitySensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "cebb1c15",
+              "fullname": "PhysicalObject/SensingObject/DensitySensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 3]
+            },
+            {
+              "name": "FieldSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e6d93f8d",
+              "fullname": "PhysicalObject/SensingObject/FieldSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 4]
+            },
+            {
+              "name": "FlowSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c3f7e77f",
+              "fullname": "PhysicalObject/SensingObject/FlowSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 5]
+            },
+            {
+              "name": "PhysicalDimensionSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "50bbb96b",
+              "fullname": "PhysicalObject/SensingObject/PhysicalDimensionSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 6]
+            },
+            {
+              "name": "EnergySensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "89e8b41a",
+              "fullname": "PhysicalObject/SensingObject/EnergySensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 7]
+            },
+            {
+              "name": "PowerSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b64a4783",
+              "fullname": "PhysicalObject/SensingObject/PowerSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 8]
+            },
+            {
+              "name": "TimeSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "bab179a2",
+              "fullname": "PhysicalObject/SensingObject/TimeSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 9]
+            },
+            {
+              "name": "LevelSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "44ca9e07",
+              "fullname": "PhysicalObject/SensingObject/LevelSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 10]
+            },
+            {
+              "name": "HumiditySensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "71c0f177",
+              "fullname": "PhysicalObject/SensingObject/HumiditySensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 11]
+            },
+            {
+              "name": "PressureSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "68f53704",
+              "fullname": "PhysicalObject/SensingObject/PressureSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 12]
+            },
+            {
+              "name": "ConcentrationSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "5ea87376",
+              "fullname": "PhysicalObject/SensingObject/ConcentrationSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 13]
+            },
+            {
+              "name": "RadiationSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c7e9ae48",
+              "fullname": "PhysicalObject/SensingObject/RadiationSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 14]
+            },
+            {
+              "name": "TimeRatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6624c051",
+              "fullname": "PhysicalObject/SensingObject/TimeRatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 15]
+            },
+            {
+              "name": "TemperatureSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4a04dcf6",
+              "fullname": "PhysicalObject/SensingObject/TemperatureSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 16]
+            },
+            {
+              "name": "MultiQuantitySensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f70a07a3",
+              "fullname": "PhysicalObject/SensingObject/MultiQuantitySensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 17]
+            },
+            {
+              "name": "ForceSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "bd29aea5",
+              "fullname": "PhysicalObject/SensingObject/ForceSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 18]
+            },
+            {
+              "name": "AudioVisualSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "1c7d721d",
+              "fullname": "PhysicalObject/SensingObject/AudioVisualSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 19]
+            },
+            {
+              "name": "InformationSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a4523c08",
+              "fullname": "PhysicalObject/SensingObject/InformationSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 20]
+            },
+            {
+              "name": "IncidentSensingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6fa817a3",
+              "fullname": "PhysicalObject/SensingObject/IncidentSensingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 2, 21]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "6b872916",
+          "fullname": "PhysicalObject/SensingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 2]
+        },
+        {
+          "name": "StoringObject",
+          "children": [
+            {
+              "name": "CapacitiveStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "af119151",
+              "fullname": "PhysicalObject/StoringObject/CapacitiveStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 0]
+            },
+            {
+              "name": "InductiveStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "0e1cae83",
+              "fullname": "PhysicalObject/StoringObject/InductiveStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 1]
+            },
+            {
+              "name": "ElectrochemicalStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e5a783c3",
+              "fullname": "PhysicalObject/StoringObject/ElectrochemicalStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 2]
+            },
+            {
+              "name": "InformationStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "7cb645b6",
+              "fullname": "PhysicalObject/StoringObject/InformationStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 3]
+            },
+            {
+              "name": "OpenStationaryStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "366ca2d2",
+              "fullname": "PhysicalObject/StoringObject/OpenStationaryStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 4]
+            },
+            {
+              "name": "EnclosedStationaryStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "8f80327f",
+              "fullname": "PhysicalObject/StoringObject/EnclosedStationaryStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 5]
+            },
+            {
+              "name": "MoveableStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "0be020e1",
+              "fullname": "PhysicalObject/StoringObject/MoveableStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 6]
+            },
+            {
+              "name": "ThermalEnergyStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "12159e87",
+              "fullname": "PhysicalObject/StoringObject/ThermalEnergyStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 7]
+            },
+            {
+              "name": "MechanicalEnergyStoringObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "13263cd2",
+              "fullname": "PhysicalObject/StoringObject/MechanicalEnergyStoringObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 3, 8]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "9f59c63e",
+          "fullname": "PhysicalObject/StoringObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 3]
+        },
+        {
+          "name": "EmittingObject",
+          "children": [
+            {
+              "name": "LightObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a3bdea6b",
+              "fullname": "PhysicalObject/EmittingObject/LightObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 0]
+            },
+            {
+              "name": "ElectricHeatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "7e6858ba",
+              "fullname": "PhysicalObject/EmittingObject/ElectricHeatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 1]
+            },
+            {
+              "name": "ElectricCoolingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a9ffb725",
+              "fullname": "PhysicalObject/EmittingObject/ElectricCoolingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 2]
+            },
+            {
+              "name": "WirelessPowerObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "40c13347",
+              "fullname": "PhysicalObject/EmittingObject/WirelessPowerObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 3]
+            },
+            {
+              "name": "ThermalEnergyTransferObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2e331d58",
+              "fullname": "PhysicalObject/EmittingObject/ThermalEnergyTransferObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 4]
+            },
+            {
+              "name": "CombustionHeatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4f555ae1",
+              "fullname": "PhysicalObject/EmittingObject/CombustionHeatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 5]
+            },
+            {
+              "name": "ThermalHeatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "d6636943",
+              "fullname": "PhysicalObject/EmittingObject/ThermalHeatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 6]
+            },
+            {
+              "name": "ThermalCoolingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "14c06e84",
+              "fullname": "PhysicalObject/EmittingObject/ThermalCoolingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 7]
+            },
+            {
+              "name": "NuclearPoweredHeatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "7991967f",
+              "fullname": "PhysicalObject/EmittingObject/NuclearPoweredHeatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 8]
+            },
+            {
+              "name": "ParticleEmittingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "79fb3897",
+              "fullname": "PhysicalObject/EmittingObject/ParticleEmittingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 9]
+            },
+            {
+              "name": "AcousticWaveEmittingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "937ef741",
+              "fullname": "PhysicalObject/EmittingObject/AcousticWaveEmittingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 4, 10]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "69ea9873",
+          "fullname": "PhysicalObject/EmittingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 4]
+        },
+        {
+          "name": "ProtectingObject",
+          "children": [
+            {
+              "name": "OvervoltageProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "cb276645",
+              "fullname": "PhysicalObject/ProtectingObject/OvervoltageProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 0]
+            },
+            {
+              "name": "EarthFaultCurrentProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9600c720",
+              "fullname": "PhysicalObject/ProtectingObject/EarthFaultCurrentProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 1]
+            },
+            {
+              "name": "OvercurrentProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a140ac2f",
+              "fullname": "PhysicalObject/ProtectingObject/OvercurrentProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 2]
+            },
+            {
+              "name": "FieldProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "417852ba",
+              "fullname": "PhysicalObject/ProtectingObject/FieldProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 3]
+            },
+            {
+              "name": "PressureProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4b97e214",
+              "fullname": "PhysicalObject/ProtectingObject/PressureProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 4]
+            },
+            {
+              "name": "FireProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e712c37d",
+              "fullname": "PhysicalObject/ProtectingObject/FireProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 5]
+            },
+            {
+              "name": "MechanicalForceProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f9f97380",
+              "fullname": "PhysicalObject/ProtectingObject/MechanicalForceProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 6]
+            },
+            {
+              "name": "PreventiveProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "23f36394",
+              "fullname": "PhysicalObject/ProtectingObject/PreventiveProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 7]
+            },
+            {
+              "name": "WearProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "37cd131d",
+              "fullname": "PhysicalObject/ProtectingObject/WearProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 8]
+            },
+            {
+              "name": "EnvironmentProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "675dad68",
+              "fullname": "PhysicalObject/ProtectingObject/EnvironmentProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 9]
+            },
+            {
+              "name": "TemperatureProtectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "1df93495",
+              "fullname": "PhysicalObject/ProtectingObject/TemperatureProtectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 5, 10]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "f5c8eedc",
+          "fullname": "PhysicalObject/ProtectingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 5]
+        },
+        {
+          "name": "GeneratingObject",
+          "children": [
+            {
+              "name": "MechanicalToElectricalEnergyGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2560a865",
+              "fullname": "PhysicalObject/GeneratingObject/MechanicalToElectricalEnergyGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 0]
+            },
+            {
+              "name": "ChemicalToElectricalEnergyGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a0c9ac44",
+              "fullname": "PhysicalObject/GeneratingObject/ChemicalToElectricalEnergyGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 1]
+            },
+            {
+              "name": "SolarToElectricalEnergyGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "60fcd238",
+              "fullname": "PhysicalObject/GeneratingObject/SolarToElectricalEnergyGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 2]
+            },
+            {
+              "name": "SignalGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "25708f10",
+              "fullname": "PhysicalObject/GeneratingObject/SignalGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 3]
+            },
+            {
+              "name": "ContinuousTransferObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "cc672d65",
+              "fullname": "PhysicalObject/GeneratingObject/ContinuousTransferObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 4]
+            },
+            {
+              "name": "DiscontinuousTransferObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "baacfbca",
+              "fullname": "PhysicalObject/GeneratingObject/DiscontinuousTransferObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 5]
+            },
+            {
+              "name": "LiquidFlowGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2f24b183",
+              "fullname": "PhysicalObject/GeneratingObject/LiquidFlowGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 6]
+            },
+            {
+              "name": "GaseousFlowGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "54fae91e",
+              "fullname": "PhysicalObject/GeneratingObject/GaseousFlowGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 7]
+            },
+            {
+              "name": "SolarToThermalEnergyGeneratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "aabe565f",
+              "fullname": "PhysicalObject/GeneratingObject/SolarToThermalEnergyGeneratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 6, 8]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "e527fb17",
+          "fullname": "PhysicalObject/GeneratingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 6]
+        },
+        {
+          "name": "MatterProcessingObject",
+          "children": [
+            {
+              "name": "PrimaryFormingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "bff601e0",
+              "fullname": "PhysicalObject/MatterProcessingObject/PrimaryFormingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 0]
+            },
+            {
+              "name": "SurfaceTreatmentObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "084fb5b7",
+              "fullname": "PhysicalObject/MatterProcessingObject/SurfaceTreatmentObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 1]
+            },
+            {
+              "name": "AssemblingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "92a1a737",
+              "fullname": "PhysicalObject/MatterProcessingObject/AssemblingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 2]
+            },
+            {
+              "name": "ForceSeparatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "55343413",
+              "fullname": "PhysicalObject/MatterProcessingObject/ForceSeparatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 3]
+            },
+            {
+              "name": "ThermalSeparatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2d130152",
+              "fullname": "PhysicalObject/MatterProcessingObject/ThermalSeparatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 4]
+            },
+            {
+              "name": "MechanicalSeparatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "db7f56c0",
+              "fullname": "PhysicalObject/MatterProcessingObject/MechanicalSeparatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 5]
+            },
+            {
+              "name": "ElectricOrMagneticSeparatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "688c7fdf",
+              "fullname": "PhysicalObject/MatterProcessingObject/ElectricOrMagneticSeparatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 6]
+            },
+            {
+              "name": "ChemicalSeparatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f48e2472",
+              "fullname": "PhysicalObject/MatterProcessingObject/ChemicalSeparatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 7]
+            },
+            {
+              "name": "GrindingAndCrushingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "0690104b",
+              "fullname": "PhysicalObject/MatterProcessingObject/GrindingAndCrushingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 8]
+            },
+            {
+              "name": "AgglomeratingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "fd138211",
+              "fullname": "PhysicalObject/MatterProcessingObject/AgglomeratingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 9]
+            },
+            {
+              "name": "MixingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "ea1d554b",
+              "fullname": "PhysicalObject/MatterProcessingObject/MixingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 10]
+            },
+            {
+              "name": "ReactingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "80fffa54",
+              "fullname": "PhysicalObject/MatterProcessingObject/ReactingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 7, 11]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "7d9f3d8b",
+          "fullname": "PhysicalObject/MatterProcessingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 7]
+        },
+        {
+          "name": "InformationProcessingObject",
+          "children": [
+            {
+              "name": "ElectricSignalProcessingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4199a6c1",
+              "fullname": "PhysicalObject/InformationProcessingObject/ElectricSignalProcessingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 8, 0]
+            },
+            {
+              "name": "ElectricSignalRelayingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e51a6b69",
+              "fullname": "PhysicalObject/InformationProcessingObject/ElectricSignalRelayingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 8, 1]
+            },
+            {
+              "name": "OpticalSignallingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a40ddff2",
+              "fullname": "PhysicalObject/InformationProcessingObject/OpticalSignallingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 8, 2]
+            },
+            {
+              "name": "FluidSignallingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2d704e56",
+              "fullname": "PhysicalObject/InformationProcessingObject/FluidSignallingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 8, 3]
+            },
+            {
+              "name": "MechanicalSignallingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "205d2df7",
+              "fullname": "PhysicalObject/InformationProcessingObject/MechanicalSignallingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 8, 4]
+            },
+            {
+              "name": "MultipleKindSignallingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c8978ec5",
+              "fullname": "PhysicalObject/InformationProcessingObject/MultipleKindSignallingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 8, 5]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "3dc6a50b",
+          "fullname": "PhysicalObject/InformationProcessingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 8]
+        },
+        {
+          "name": "DrivingObject",
+          "children": [
+            {
+              "name": "ElectromagneticRotationalDrivingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "324a25f5",
+              "fullname": "PhysicalObject/DrivingObject/ElectromagneticRotationalDrivingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 0]
+            },
+            {
+              "name": "ElectromagneticLinearDrivingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6fe2cd60",
+              "fullname": "PhysicalObject/DrivingObject/ElectromagneticLinearDrivingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 1]
+            },
+            {
+              "name": "MagneticForceDrivingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "809232f0",
+              "fullname": "PhysicalObject/DrivingObject/MagneticForceDrivingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 2]
+            },
+            {
+              "name": "PiezoelectricDrivingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "44a1f13f",
+              "fullname": "PhysicalObject/DrivingObject/PiezoelectricDrivingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 3]
+            },
+            {
+              "name": "MechanicalEnergyDrivingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "ccb7297a",
+              "fullname": "PhysicalObject/DrivingObject/MechanicalEnergyDrivingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 4]
+            },
+            {
+              "name": "FluidPoweredDrivingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "17ac746b",
+              "fullname": "PhysicalObject/DrivingObject/FluidPoweredDrivingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 5]
+            },
+            {
+              "name": "CombustionEngine",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "73cbbebc",
+              "fullname": "PhysicalObject/DrivingObject/CombustionEngine",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 6]
+            },
+            {
+              "name": "HeatEngine",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4f630864",
+              "fullname": "PhysicalObject/DrivingObject/HeatEngine",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 9, 7]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "88625e07",
+          "fullname": "PhysicalObject/DrivingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 9]
+        },
+        {
+          "name": "CoveringObject",
+          "children": [
+            {
+              "name": "InfillingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "ef5cf88c",
+              "fullname": "PhysicalObject/CoveringObject/InfillingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 10, 0]
+            },
+            {
+              "name": "ClosureObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "97aef050",
+              "fullname": "PhysicalObject/CoveringObject/ClosureObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 10, 1]
+            },
+            {
+              "name": "FinishingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "87613f7d",
+              "fullname": "PhysicalObject/CoveringObject/FinishingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 10, 2]
+            },
+            {
+              "name": "TerminatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "846b3cae",
+              "fullname": "PhysicalObject/CoveringObject/TerminatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 10, 3]
+            },
+            {
+              "name": "HidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e48fbf34",
+              "fullname": "PhysicalObject/CoveringObject/HidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 10, 4]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "0f4c56d7",
+          "fullname": "PhysicalObject/CoveringObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 10]
+        },
+        {
+          "name": "PresentingObject",
+          "children": [
+            {
+              "name": "VisibleStateIndicator",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "8f3cd24c",
+              "fullname": "PhysicalObject/PresentingObject/VisibleStateIndicator",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 0]
+            },
+            {
+              "name": "ScalarDisplay",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "544b4f43",
+              "fullname": "PhysicalObject/PresentingObject/ScalarDisplay",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 1]
+            },
+            {
+              "name": "GraphicalDisplay",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "340dd21d",
+              "fullname": "PhysicalObject/PresentingObject/GraphicalDisplay",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 2]
+            },
+            {
+              "name": "AcousticDevice",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c0ce1685",
+              "fullname": "PhysicalObject/PresentingObject/AcousticDevice",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 3]
+            },
+            {
+              "name": "TactileDevice",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "83a1941b",
+              "fullname": "PhysicalObject/PresentingObject/TactileDevice",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 4]
+            },
+            {
+              "name": "OrnamentalObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "1c1d83ff",
+              "fullname": "PhysicalObject/PresentingObject/OrnamentalObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 5]
+            },
+            {
+              "name": "MultipleFormPresentingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c693a790",
+              "fullname": "PhysicalObject/PresentingObject/MultipleFormPresentingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 11, 6]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "81a3617e",
+          "fullname": "PhysicalObject/PresentingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 11]
+        },
+        {
+          "name": "ControllingObject",
+          "children": [
+            {
+              "name": "ElectricControllingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6092689e",
+              "fullname": "PhysicalObject/ControllingObject/ElectricControllingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 0]
+            },
+            {
+              "name": "ElectricSeparatingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9d1b424e",
+              "fullname": "PhysicalObject/ControllingObject/ElectricSeparatingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 1]
+            },
+            {
+              "name": "ElectricEarthingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "35093b48",
+              "fullname": "PhysicalObject/ControllingObject/ElectricEarthingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 2]
+            },
+            {
+              "name": "SealedFluidSwitchingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f321e6f9",
+              "fullname": "PhysicalObject/ControllingObject/SealedFluidSwitchingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 3]
+            },
+            {
+              "name": "SealedFluidVaryingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b66d4d6c",
+              "fullname": "PhysicalObject/ControllingObject/SealedFluidVaryingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 4]
+            },
+            {
+              "name": "OpenFlowControllingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "66a8afd7",
+              "fullname": "PhysicalObject/ControllingObject/OpenFlowControllingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 5]
+            },
+            {
+              "name": "SpaceAccessObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "0dfae3d4",
+              "fullname": "PhysicalObject/ControllingObject/SpaceAccessObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 6]
+            },
+            {
+              "name": "SolidSubstanceFlowVaryingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9945bf29",
+              "fullname": "PhysicalObject/ControllingObject/SolidSubstanceFlowVaryingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 7]
+            },
+            {
+              "name": "MechanicalMovementControllingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9e2b0f5e",
+              "fullname": "PhysicalObject/ControllingObject/MechanicalMovementControllingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 8]
+            },
+            {
+              "name": "MultipleMeasureControllingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4f51b8e4",
+              "fullname": "PhysicalObject/ControllingObject/MultipleMeasureControllingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 12, 9]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "9b52cd6c",
+          "fullname": "PhysicalObject/ControllingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 12]
+        },
+        {
+          "name": "RestrictingObject",
+          "children": [
+            {
+              "name": "ElectricityRestrictingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6e9d1401",
+              "fullname": "PhysicalObject/RestrictingObject/ElectricityRestrictingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 0]
+            },
+            {
+              "name": "ElectricityStabilisingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "dba0ce62",
+              "fullname": "PhysicalObject/RestrictingObject/ElectricityStabilisingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 1]
+            },
+            {
+              "name": "SignalStabilisingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e3f65258",
+              "fullname": "PhysicalObject/RestrictingObject/SignalStabilisingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 2]
+            },
+            {
+              "name": "MovementRestrictingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "5bd229f2",
+              "fullname": "PhysicalObject/RestrictingObject/MovementRestrictingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 3]
+            },
+            {
+              "name": "ReturnFlowRestrictingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "ee0ed814",
+              "fullname": "PhysicalObject/RestrictingObject/ReturnFlowRestrictingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 4]
+            },
+            {
+              "name": "FlowRestrictor",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e2edbc11",
+              "fullname": "PhysicalObject/RestrictingObject/FlowRestrictor",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 5]
+            },
+            {
+              "name": "LocalClimateStabilisingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "3146ed59",
+              "fullname": "PhysicalObject/RestrictingObject/LocalClimateStabilisingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 6]
+            },
+            {
+              "name": "AccessRestrictingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6b225585",
+              "fullname": "PhysicalObject/RestrictingObject/AccessRestrictingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 13, 7]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "53529b29",
+          "fullname": "PhysicalObject/RestrictingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 13]
+        },
+        {
+          "name": "HumanInteractionObject",
+          "children": [
+            {
+              "name": "FaceInteractionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "ef1e732e",
+              "fullname": "PhysicalObject/HumanInteractionObject/FaceInteractionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 14, 0]
+            },
+            {
+              "name": "HandInteractionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "c7a18f32",
+              "fullname": "PhysicalObject/HumanInteractionObject/HandInteractionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 14, 1]
+            },
+            {
+              "name": "FootInteractionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b6911100",
+              "fullname": "PhysicalObject/HumanInteractionObject/FootInteractionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 14, 2]
+            },
+            {
+              "name": "FingerInteractionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "61b085d9",
+              "fullname": "PhysicalObject/HumanInteractionObject/FingerInteractionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 14, 3]
+            },
+            {
+              "name": "MovementInteractionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f3252754",
+              "fullname": "PhysicalObject/HumanInteractionObject/MovementInteractionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 14, 4]
+            },
+            {
+              "name": "MultiInteractionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "2d9baccf",
+              "fullname": "PhysicalObject/HumanInteractionObject/MultiInteractionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 14, 5]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "25ad89f9",
+          "fullname": "PhysicalObject/HumanInteractionObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 14]
+        },
+        {
+          "name": "TransformingObject",
+          "children": [
+            {
+              "name": "ElectricEnergyTransformingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "0020512a",
+              "fullname": "PhysicalObject/TransformingObject/ElectricEnergyTransformingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 0]
+            },
+            {
+              "name": "ElectricEnergyConvertingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4b7237fb",
+              "fullname": "PhysicalObject/TransformingObject/ElectricEnergyConvertingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 1]
+            },
+            {
+              "name": "UniversalPowerSupply",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "70b2f140",
+              "fullname": "PhysicalObject/TransformingObject/UniversalPowerSupply",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 2]
+            },
+            {
+              "name": "SignalConvertingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "7027c2c2",
+              "fullname": "PhysicalObject/TransformingObject/SignalConvertingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 3]
+            },
+            {
+              "name": "MechanicalEnergyTransformingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "08bf453f",
+              "fullname": "PhysicalObject/TransformingObject/MechanicalEnergyTransformingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 4]
+            },
+            {
+              "name": "MassReductionObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "36c55131",
+              "fullname": "PhysicalObject/TransformingObject/MassReductionObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 5]
+            },
+            {
+              "name": "MatterReshapingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "71b86b0f",
+              "fullname": "PhysicalObject/TransformingObject/MatterReshapingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 6]
+            },
+            {
+              "name": "OrganicPlant",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "43a005cb",
+              "fullname": "PhysicalObject/TransformingObject/OrganicPlant",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 15, 7]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "f00b981c",
+          "fullname": "PhysicalObject/TransformingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 15]
+        },
+        {
+          "name": "HoldingObject",
+          "children": [
+            {
+              "name": "PositioningObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "1e835070",
+              "fullname": "PhysicalObject/HoldingObject/PositioningObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 0]
+            },
+            {
+              "name": "CarryingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a42b14c8",
+              "fullname": "PhysicalObject/HoldingObject/CarryingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 1]
+            },
+            {
+              "name": "EnclosingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "817fbb91",
+              "fullname": "PhysicalObject/HoldingObject/EnclosingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 2]
+            },
+            {
+              "name": "StructuralSupportingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "539eeb18",
+              "fullname": "PhysicalObject/HoldingObject/StructuralSupportingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 3]
+            },
+            {
+              "name": "ReinforcingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f30bbd6b",
+              "fullname": "PhysicalObject/HoldingObject/ReinforcingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 4]
+            },
+            {
+              "name": "FramingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b4fbaca0",
+              "fullname": "PhysicalObject/HoldingObject/FramingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 5]
+            },
+            {
+              "name": "JointingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "7cc588ec",
+              "fullname": "PhysicalObject/HoldingObject/JointingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 6]
+            },
+            {
+              "name": "FasteningObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "eaf122df",
+              "fullname": "PhysicalObject/HoldingObject/FasteningObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 7]
+            },
+            {
+              "name": "LevellingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "5a3a6551",
+              "fullname": "PhysicalObject/HoldingObject/LevellingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 8]
+            },
+            {
+              "name": "ExistingGround",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "34644002",
+              "fullname": "PhysicalObject/HoldingObject/ExistingGround",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 16, 9]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "c94120b1",
+          "fullname": "PhysicalObject/HoldingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 16]
+        },
+        {
+          "name": "GuidingObject",
+          "children": [
+            {
+              "name": "ElectricEnergyGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6f058897",
+              "fullname": "PhysicalObject/GuidingObject/ElectricEnergyGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 0]
+            },
+            {
+              "name": "ReferencingPotentialGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "31631b99",
+              "fullname": "PhysicalObject/GuidingObject/ReferencingPotentialGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 1]
+            },
+            {
+              "name": "ElectricSignalGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "7c67fa60",
+              "fullname": "PhysicalObject/GuidingObject/ElectricSignalGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 2]
+            },
+            {
+              "name": "LightGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e5a537e1",
+              "fullname": "PhysicalObject/GuidingObject/LightGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 3]
+            },
+            {
+              "name": "SoundGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "1ccc95ef",
+              "fullname": "PhysicalObject/GuidingObject/SoundGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 4]
+            },
+            {
+              "name": "SolidMatterGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "88de2963",
+              "fullname": "PhysicalObject/GuidingObject/SolidMatterGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 5]
+            },
+            {
+              "name": "OpenEnclosureGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "48f9ae14",
+              "fullname": "PhysicalObject/GuidingObject/OpenEnclosureGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 6]
+            },
+            {
+              "name": "ClosedEnclosureGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "dc7703dd",
+              "fullname": "PhysicalObject/GuidingObject/ClosedEnclosureGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 7]
+            },
+            {
+              "name": "MechanicalEnergyGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "3f808cfc",
+              "fullname": "PhysicalObject/GuidingObject/MechanicalEnergyGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 8]
+            },
+            {
+              "name": "RailObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "230fda5a",
+              "fullname": "PhysicalObject/GuidingObject/RailObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 9]
+            },
+            {
+              "name": "ThermalEnergyGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "82e94ab0",
+              "fullname": "PhysicalObject/GuidingObject/ThermalEnergyGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 10]
+            },
+            {
+              "name": "MultipleFlowGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b2452408",
+              "fullname": "PhysicalObject/GuidingObject/MultipleFlowGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 11]
+            },
+            {
+              "name": "HighVoltageElectricEnergyGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b2452408",
+              "fullname": "PhysicalObject/GuidingObject/HighVoltageElectricEnergyGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 12]
+            },
+            {
+              "name": "LowVoltageElectricEnergyGuidingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b2452408",
+              "fullname": "PhysicalObject/GuidingObject/LowVoltageElectricEnergyGuidingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 17, 13]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "2252d9f7",
+          "fullname": "PhysicalObject/GuidingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 17]
+        },
+        {
+          "name": "InterfacingObject",
+          "children": [
+            {
+              "name": "HighVoltageConnectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b3294e76",
+              "fullname": "PhysicalObject/InterfacingObject/HighVoltageConnectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 0]
+            },
+            {
+              "name": "LowVoltageConnectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "108f4a46",
+              "fullname": "PhysicalObject/InterfacingObject/LowVoltageConnectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 1]
+            },
+            {
+              "name": "PotentialConnectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "59b2efe7",
+              "fullname": "PhysicalObject/InterfacingObject/PotentialConnectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 2]
+            },
+            {
+              "name": "ElectricSignalConnectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "3d66e250",
+              "fullname": "PhysicalObject/InterfacingObject/ElectricSignalConnectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 3]
+            },
+            {
+              "name": "LightCollectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "44767b73",
+              "fullname": "PhysicalObject/InterfacingObject/LightCollectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 4]
+            },
+            {
+              "name": "CollectingInterfacingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "994a00d1",
+              "fullname": "PhysicalObject/InterfacingObject/CollectingInterfacingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 5]
+            },
+            {
+              "name": "SealedFlowConnectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "950bcd7c",
+              "fullname": "PhysicalObject/InterfacingObject/SealedFlowConnectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 6]
+            },
+            {
+              "name": "NonDetachableCoupling",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "737cc0d6",
+              "fullname": "PhysicalObject/InterfacingObject/NonDetachableCoupling",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 7]
+            },
+            {
+              "name": "DetachableCoupling",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "cce75955",
+              "fullname": "PhysicalObject/InterfacingObject/DetachableCoupling",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 8]
+            },
+            {
+              "name": "LevelConnectingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "3ab91c01",
+              "fullname": "PhysicalObject/InterfacingObject/LevelConnectingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 9]
+            },
+            {
+              "name": "SpaceLinkingObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "659aa52a",
+              "fullname": "PhysicalObject/InterfacingObject/SpaceLinkingObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 10]
+            },
+            {
+              "name": "MultipleFlowConnectorObject",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "b921e954",
+              "fullname": "PhysicalObject/InterfacingObject/MultipleFlowConnectorObject",
+              "color": "#739966",
+              "active": true,
+              "path": [0, 18, 11]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "9a25415d",
+          "fullname": "PhysicalObject/InterfacingObject",
+          "color": "#739966",
+          "active": true,
+          "path": [0, 18]
+        }
+      ],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "fdd0c2ef",
+      "fullname": "PhysicalObject",
+      "color": "#739966",
+      "active": true,
+      "path": [0]
+    },
+    {
+      "name": "Activity",
+      "children": [
+        {
+          "name": "MaintenanceActivity",
+          "children": [
+            {
+              "name": "Adjust",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "3ae1471f",
+              "fullname": "Activity/MaintenanceActivity/Adjust",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 0]
+            },
+            {
+              "name": "Calibrate",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "55b1ee8e",
+              "fullname": "Activity/MaintenanceActivity/Calibrate",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 1]
+            },
+            {
+              "name": "Diagnose",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "4fc822b7",
+              "fullname": "Activity/MaintenanceActivity/Diagnose",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 2]
+            },
+            {
+              "name": "Inspect",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a613a11b",
+              "fullname": "Activity/MaintenanceActivity/Inspect",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 3]
+            },
+            {
+              "name": "Replace",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "5f99c9aa",
+              "fullname": "Activity/MaintenanceActivity/Replace",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 4]
+            },
+            {
+              "name": "Repair",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9349e4a1",
+              "fullname": "Activity/MaintenanceActivity/Repair",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 5]
+            },
+            {
+              "name": "Service",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "14505826",
+              "fullname": "Activity/MaintenanceActivity/Service",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 0, 6]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "3266cddd",
+          "fullname": "Activity/MaintenanceActivity",
+          "color": "#876be7",
+          "active": true,
+          "path": [1, 0]
+        },
+        {
+          "name": "SupportingActivity",
+          "children": [
+            {
+              "name": "Admin",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f7b35f32",
+              "fullname": "Activity/SupportingActivity/Admin",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 0]
+            },
+            {
+              "name": "Assemble",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "a9657b42",
+              "fullname": "Activity/SupportingActivity/Assemble",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 1]
+            },
+            {
+              "name": "Isolate",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "63518604",
+              "fullname": "Activity/SupportingActivity/Isolate",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 2]
+            },
+            {
+              "name": "Measure",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9d469eff",
+              "fullname": "Activity/SupportingActivity/Measure",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 3]
+            },
+            {
+              "name": "Modify",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "d8f20488",
+              "fullname": "Activity/SupportingActivity/Modify",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 4]
+            },
+            {
+              "name": "Move",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "f9df8846",
+              "fullname": "Activity/SupportingActivity/Move",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 5]
+            },
+            {
+              "name": "Operate",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "56f49038",
+              "fullname": "Activity/SupportingActivity/Operate",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 6]
+            },
+            {
+              "name": "Perform",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "d1d5e4ce",
+              "fullname": "Activity/SupportingActivity/Perform",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 7]
+            },
+            {
+              "name": "Teamwork",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "261b8848",
+              "fullname": "Activity/SupportingActivity/Teamwork",
+              "color": "#876be7",
+              "active": true,
+              "path": [1, 1, 8]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "dc9c4691",
+          "fullname": "Activity/SupportingActivity",
+          "color": "#876be7",
+          "active": true,
+          "path": [1, 1]
+        }
+      ],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "3271eb70",
+      "fullname": "Activity",
+      "color": "#876be7",
+      "active": true,
+      "path": [1]
+    },
+    {
+      "name": "State",
+      "children": [
+        {
+          "name": "DesirableState",
+          "children": [
+            {
+              "name": "NormalState",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "9301f39d",
+              "fullname": "State/DesirableState/NormalState",
+              "color": "#db80e4",
+              "active": true,
+              "path": [2, 0, 0]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "9d35512b",
+          "fullname": "State/DesirableState",
+          "color": "#db80e4",
+          "active": true,
+          "path": [2, 0]
+        },
+        {
+          "name": "UndesirableState",
+          "children": [
+            {
+              "name": "DegradedState",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "e9432cd3",
+              "fullname": "State/UndesirableState/DegradedState",
+              "color": "#db80e4",
+              "active": true,
+              "path": [2, 1, 0]
+            },
+            {
+              "name": "FailedState",
+              "children": [],
+              "description": "",
+              "example_terms": [],
+              "created_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "updated_at": {
+                "$date": "2023-04-06T01:06:02.096Z"
+              },
+              "id": "6b935a33",
+              "fullname": "State/UndesirableState/FailedState",
+              "color": "#db80e4",
+              "active": true,
+              "path": [2, 1, 1]
+            }
+          ],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "cf650f2b",
+          "fullname": "State/UndesirableState",
+          "color": "#db80e4",
+          "active": true,
+          "path": [2, 1]
+        }
+      ],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "94034b0c",
+      "fullname": "State",
+      "color": "#db80e4",
+      "active": true,
+      "path": [2]
+    },
+    {
+      "name": "Process",
+      "children": [
+        {
+          "name": "DesirableProcess",
+          "children": [],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "0757d4ff",
+          "fullname": "Process/DesirableProcess",
+          "color": "#cbe292",
+          "active": true,
+          "path": [3, 0]
+        },
+        {
+          "name": "UndesirableProcess",
+          "children": [],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "a625bc52",
+          "fullname": "Process/UndesirableProcess",
+          "color": "#cbe292",
+          "active": true,
+          "path": [3, 1]
+        }
+      ],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "cf7fb606",
+      "fullname": "Process",
+      "color": "#cbe292",
+      "active": true,
+      "path": [3]
+    },
+    {
+      "name": "Property",
+      "children": [
+        {
+          "name": "DesirableProperty",
+          "children": [],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "4d70f9c1",
+          "fullname": "Property/DesirableProperty",
+          "color": "#bb6ad3",
+          "active": true,
+          "path": [4, 0]
+        },
+        {
+          "name": "UndesirableProperty",
+          "children": [],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "4fb4942c",
+          "fullname": "Property/UndesirableProperty",
+          "color": "#bb6ad3",
+          "active": true,
+          "path": [4, 1]
+        }
+      ],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "30515843",
+      "fullname": "Property",
+      "color": "#bb6ad3",
+      "active": true,
+      "path": [4]
+    }
+  ],
+  "relation": [
+    {
+      "name": "isA",
+      "children": [],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "a498e007",
+      "fullname": "isA",
+      "color": "#6a5aba",
+      "active": true,
+      "path": [0]
+    },
+    {
+      "name": "contains",
+      "children": [],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "c2ccabdf",
+      "fullname": "contains",
+      "color": "#95b1a0",
+      "active": true,
+      "path": [1]
+    },
+    {
+      "name": "hasPart",
+      "children": [],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "cf061671",
+      "fullname": "hasPart",
+      "color": "#5689a8",
+      "active": true,
+      "path": [2]
+    },
+    {
+      "name": "hasParticipant",
+      "children": [
+        {
+          "name": "hasPatient",
+          "children": [],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "85cb8738",
+          "fullname": "hasParticipant/hasPatient",
+          "color": "#479167",
+          "active": true,
+          "path": [3, 0]
+        },
+        {
+          "name": "hasAgent",
+          "children": [],
+          "description": "",
+          "example_terms": [],
+          "created_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "updated_at": {
+            "$date": "2023-04-06T01:06:02.096Z"
+          },
+          "id": "8959ef4f",
+          "fullname": "hasParticipant/hasAgent",
+          "color": "#479167",
+          "active": true,
+          "path": [3, 1]
+        }
+      ],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "43a61d91",
+      "fullname": "hasParticipant",
+      "color": "#479167",
+      "active": true,
+      "path": [3]
+    },
+    {
+      "name": "hasProperty",
+      "children": [],
+      "description": "",
+      "example_terms": [],
+      "created_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "updated_at": {
+        "$date": "2023-04-06T01:06:02.096Z"
+      },
+      "id": "cfb3d329",
+      "fullname": "hasProperty",
+      "color": "#5a84c0",
+      "active": true,
+      "path": [4]
+    }
+  ]
+}
