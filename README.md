@@ -1,6 +1,6 @@
 # MaintIE: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Low-Quality Maintenance Short Texts
 
-This repository contains the data, models, and code accompanying the paper titled "MaintIE: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Low-Quality Maintenance Short Texts", submitted to [LREC-Coling 2024](https://lrec-coling-2024.org/).
+This repository contains the data, models, and code accompanying the paper titled "MaintIE: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Low-Quality Maintenance Short Texts", published in [LREC-Coling 2024](https://lrec-coling-2024.org/).
 
 ## Table of Contents
 
@@ -19,6 +19,7 @@ This repository contains the data, models, and code accompanying the paper title
 6. [License](#6-license)
 7. [Contributing](#7-contributing)
 8. [Contact](#8-contact)
+9. [Attribution](#9-attribution)
 
 ## 1. Overview
 
@@ -166,14 +167,41 @@ The detailed results of the entity and relation extraction models are provided i
 
 ## 6. License
 
-This project is protected under the MIT License. For detailed licensing information, check out the [LICENSE](./LICENSE.md) file.
+This project is protected under the MIT License. Check out the [LICENSE](./LICENSE.md) file for detailed licensing information.
 
 ## 7. Contributing
 
-Feedback and contributions are always appreciated. If you encounter any discrepancies in the corpora or see opportunities for model enhancement, please don't hesitate to submit a pull request for our evaluation. Additionally, should you have any questions or need clarifications about the contents of this repository, do reach out to us.
+Feedback and contributions are always appreciated. If you encounter discrepancies in the corpora or see opportunities for model enhancement, please don't hesitate to submit a pull request for our evaluation. Additionally, should you have any questions or need clarification about the contents of this repository, reach out to us.
 
 ## 8. Contact
 
 For any specific inquiries or discussions, kindly get in touch:
 
-- firstname.lastname@email.com
+- tyler.bikaun@research.uwa.edu.au
+
+## 9. Attribution
+
+If you use MaintIE, please cite us!
+```
+@inproceedings{bikaun-etal-2024-maintie-fine,
+    title = "{M}aint{IE}: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Maintenance Short Texts",
+    author = "Bikaun, Tyler K.  and
+      French, Tim  and
+      Stewart, Michael  and
+      Liu, Wei  and
+      Hodkiewicz, Melinda",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.954",
+    pages = "10939--10951",
+}
+```
