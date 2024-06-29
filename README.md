@@ -1,6 +1,6 @@
 # MaintIE: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Low-Quality Maintenance Short Texts
 
-This repository contains the data, models, and code accompanying the paper titled "MaintIE: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Low-Quality Maintenance Short Texts", published in [LREC-Coling 2024](https://lrec-coling-2024.org/).
+This repository contains the data, models, and code accompanying the paper titled [MaintIE: A Fine-Grained Annotation Schema and Benchmark for Information Extraction from Low-Quality Maintenance Short Texts](https://aclanthology.org/2024.lrec-main.954.pdf)  published in [LREC-Coling 2024](https://lrec-coling-2024.org/).
 
 ## Table of Contents
 
